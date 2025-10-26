@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Install and Build",
+      "type": "shell",
+      "command": "npm install && npm run build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Start Dev Server",
+      "type": "shell",
+      "command": "npm run dev",
+      "group": "none"
+    }
+  ]
+}
